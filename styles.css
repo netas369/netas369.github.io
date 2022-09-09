@@ -1,3 +1,30 @@
+/* main windows*/
+.column {
+  float: left;
+  width: 33.33%;
+  margin-top:auto;
+  margin-left:30px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:20px;
+}
+.columnr {
+  float: left;
+  margin-left:28%;
+  margin-right:50%;
+  width: 50.00%;
+  margin-top:30px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:20px;}
+  
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+/* Navigation bar*/
+.menu li a:hover {background-color:#04AA6D}
 .sticky {
     position: fixed;
     top: 0;
@@ -7,22 +34,19 @@
      margin: 0;
      padding: 0;
      overflow: hidden;
-     background-color: #333;
+     background-color: rgb(85, 85, 85);
      font-family: Arial;
     }
 
 .navigation2 {float: left;}
 
-li a {  display: block;
+.menu li a{  display: block;
         padding: 8px 16px;
-        color: #666;
+        color: rgb(0, 0, 0);
         text-align: center;
         text-decoration: none;
     }
-li a:hover {
-    background-color: #111
-}
-.active {
+.menu .active {
     background-color:#04AA6D;
 }
 .leftindex {width: 30%; display: table-cell;}
@@ -32,10 +56,23 @@ li a:hover {
     top: 0;
     width: 100%;
 }
+/*end of navigation bar*/
+
 .font1 {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    text-align:left;
+    color:blue;
+    font-size:22px;
+    left:700px;
+    position:relative;
 }
+.font3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    color:rgb(0, 0, 0);
+    font-size:22px;
+    left:700px;
+    position:relative;}
 .profile1 {position:relative;left:200px; top:80px;}
 .left {
     width:97%;
@@ -48,4 +85,42 @@ li a:hover {
 .left-center
 {position:center;}
 .title1 {position: relative; left:150px;}
-.image2 {position: relative; top:-350px; right:50px;}
+.image2 {position: relative; top:-200px; right:50px;}
+
+.abouthz {
+    position:relative;
+    left:200px;
+    top:10px;
+}
+
+/* Sidenav menu*/
+.sidenav {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  left:-40px;
+  position:Absolute;
+  width:70%;
+  
+}
+.sidenav li a {
+        padding:17px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #000000;
+        transition: 0.3s;
+        display:block;
+        background-color: rgb(188, 188, 188);
+        border-color:black;
+        border-radius:20px;
+        width:33%;
+        
+        
+      }
+.sidenav a:hover {
+        color:green;
+      }
+/* Extra designs */
+

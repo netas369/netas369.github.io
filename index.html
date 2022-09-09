@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<main>
+<!--  style="padding:10px; height:1000px; width:500px;" example for table-->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +9,20 @@
         <link rel="stylesheet" href="styles.css">
         <title>Index page</title>
         <style>
-        </style>
+            .vl {
+              border-left: 6px solid green;
+              height: 500px;
+              position: absolute;
+            left: 25.3%;
+            margin-left: -3px;
+            top: 29.5%;
+            }
+            </style>
     </head>
-<body>
-    <div>
-    <section>
+    <body>
+<main>
+
+        <nav class="menu" class="sticky">
         <!-- Put the html links later below-->
         <ul class="navigation1">
         <li class="navigation2"><a class="active" href="index.html "class="navigation2">Home</a></li>
@@ -22,26 +31,55 @@
         <li class="navigation2"><a href="faq.html"class="navigation2">FAQ</a></li>
         <li class="navigation2"><a href="blog.html"class="navigation2">Blog</a></li>
         </ul>
-    </section>
-    </div>
-<section>
+    </nav>
+
+   <header>
     <div style="text-align: center;"><img src="https://ilvo.vlaanderen.be/uploads/images/Valgorize/HZ-logo-EN.jpg"
     width="600"
     height="200">
-    </div>
-    <div>
-    <h1 class="font1">HZ University ICT Programme</h1>
-    <p class="font1">Why I have chosen to study ICT Programme</p>
-    <ul class="font1" class="leftindex">
-    <li>I think ICT is the field of future with the possibilities we still haven't discovered
-    <li>I find it very attractive from work perspection
-    <li>I enjoy solving logical problems</h5>
-    <li>It's a job that makes impact</h5>
-    </ul>
 </div>
+</header>
+
+<hr>
+
+<!-- focus from here-------------------------------------------------------------------- -->
+
+
+<section>
+
+    <div class="sidenav">
+    <h1 style="color:green"style="font-family:arial;">___USEFUL LINKS____</h1>
+    <ul style="list-style-type:none;">
+    <li><a target="_blank"href=https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen> Education and examination regulations</a></li>
+    <li><a target="_blank"href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf">The implementation regulations ICT</a></li>
+    <li><a target="_blank"href="https://learn.hz.nl/my/">HZ Learn enviroment</a></li>
+    <li><a target="_blank"href="https://teams.microsoft.com/_?lm=deeplink&lmsrc=NeutralHomePageWeb&cmpid=WebSignIn&culture=en-us&country=ww#/school/conversations/General?threadId=19:2e2afa0286b04932be16cb8ad2d9d2c0@thread.skype&ctx=channel">Microsoft Teams environment</a></li>
+    <li><a target="_blank"href="https://learn.hz.nl/my/">My study progress</a></li>
+    <li><a target="_blank"href="https://github.com/HZ-HBO-ICT">GitHub of my study program</a></li>
+</ul>
+</div>
+
+<!-- vertical line here-->
+<div class="vl"></div>
+
 </section>
+<h1 style="float:right;margin-left:50%;margin-right:50;width: 50.00%;margin-top:auto;color:green;font-family:arial, helvetica;">Why I chosed to study in HZ University</h1>
+
+<div class="row">
+    <div class="columnr">
+     <p>Some points why I think it is good to study in HZ university
+     </p>
+     <ul>
+        <li>One of the things I like the most that it is relatively small<br>
+        for this reason you can really know your teachers and<br>
+         fellow students.</li>
+         <li>It is a high rating University in Netherlands</li>
+         <li>It is based in a beautiful place</li>
+     </ul>
+     <img src="https://i.ibb.co/8MFYnyM/5c65501089937-modified.png" width="500" height="250">
+    </div>
+</div>
 
 </body>
-
 </main>
 </html>
