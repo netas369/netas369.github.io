@@ -1,4 +1,8 @@
 /* main windows*/
+body {
+  font-family: Arial;
+  background: #f1f1f1;}
+
 .column {
   float: left;
   width: 33.33%;
@@ -38,7 +42,7 @@
      font-family: Arial;
     }
 
-.navigation2 {float: left;}
+.navigation2 {float:left;}
 
 .menu li a{  display: block;
         padding: 8px 16px;
@@ -49,7 +53,8 @@
 .menu .active {
     background-color:#04AA6D;
 }
-.leftindex {width: 30%; display: table-cell;}
+/* .leftindex {width: 30%; display: table-cell;} */
+
 .navigation2 {border-right:#bbb;
 }
 .navigation1{position: fixed;
@@ -95,32 +100,39 @@
 
 /* Sidenav menu*/
 .sidenav {
-    padding: 8px 8px 8px 8px;
-    text-decoration: none;
+  padding: 8px;
+  text-decoration: none;
   font-size: 25px;
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
-  left:-40px;
   position:Absolute;
-  width:70%;
-  
+  width:27%;
+  display:table;
+  border: 2px solid black;
+  background-color: #bbb;
+
 }
 .sidenav li a {
-        padding:17px;
+        padding:15px;
         text-decoration: none;
         font-size: 20px;
         color: #000000;
-        transition: 0.3s;
         display:block;
-        background-color: rgb(188, 188, 188);
-        border-color:black;
-        border-radius:20px;
-        width:33%;
+        background-color: rgb(102, 102, 102); 
+        border-radius:10px;
         
         
       }
 .sidenav a:hover {
-        color:green;
+        color:rgb(0, 0, 0);
+        background-color:#04AA6D
       }
 /* Extra designs */
 
+
+
+/* FAQ PAGE*/
+
+
+
+/* BLOG PAGE*/

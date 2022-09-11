@@ -7,7 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <title>Blog</title>
+    <style>
+        * { box-sizing: border-box;}
+body {
+  font-family: Arial;
+  background: #f1f1f1;}
+
+/*Blog Title */
+
+.maincolumn {
+  float: left;
+  width: 80%;
+  padding-left: 20%;}
+
+.blogpost {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;}
+
+.row:after {
+  display: table;
+  clear: both;}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #f1f1f1;
+  margin-top: 20px;}
+
+
+@media screen and (max-width: 800px) {
+  .maincolumn {
+    width: 100%;
+    padding: 0; }
+}
+    </style>
+
 </head>
+
+
 <body>
     <nav class="menu">
         <!-- Put the html links later below-->
@@ -19,6 +57,68 @@
         <li class="navigation2"><a class="active" href="blog.html"class="navigation2">Blog</a></li>
         </ul>
     </nav>
-    </body>
+
+<header>
+    <div style="text-align: center;margin-top:75px;">
+        <H1 style="text-align: center; font-size:40px;font-style:italic;font-family:Impact;color:green;"> MY BLOG</H1>
+        <hr style="margin-top:35px;">
+    </div>
+</header>
+
+
+<div class="row">
+<div class="maincolumn">
+
+<article>
+<section>
+      <div class="blogpost">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, date</h5>
+        <p>Some text..</p>
+      </div>
+</section>
+</article>
+
+<article>
+<section>
+        <div class="blogpost">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, date</h5>
+        <p>Some text..</p>
+      </div>
+</section>
+</article>
+
+<article>
+    <section>
+            <div class="blogpost">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, date</h5>
+            <p>Some text..</p>
+          </div>
+    </section>
+    </article>
+
+    <article>
+        <section>
+                <div class="blogpost">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, date</h5>
+                <p>Some text..</p>
+              </div>
+        </section>
+        </article>
+
+</div>
+</div>
+
+  
+  <div class="footer">
+    <div style="text-align: center;"><img src="https://ilvo.vlaanderen.be/uploads/images/Valgorize/HZ-logo-EN.jpg"
+        width="300"
+        height="100">
+  </div>
+
+</body>
 </main>
 </html>
