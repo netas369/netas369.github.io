@@ -41,7 +41,7 @@ body {
      background-color: rgb(85, 85, 85);
      font-family: Arial;
      left:-5px;
-     box-shadow:0px 3px 0px 0px lightgrey;
+     filter:drop-shadow(0px 5px 10px rgb(142, 142, 142));
     }
 
 .navigation2 {float:left;}
@@ -113,7 +113,7 @@ body {
   border: 2px solid rgb(72, 72, 72);
   background-color: #f1f1f1;
   border-radius: 25px;
-  box-shadow: 3px 3px rgb(181, 181, 181);
+  filter:drop-shadow(0px 5px 10px rgb(117, 117, 117));
 }
 .sidenav li a {
         padding:15px;
@@ -121,7 +121,7 @@ body {
         font-size: 20px;
         color: #000000;
         display:block;
-        background-color: rgb(242, 230, 192); 
+        background-color: rgb(181, 181, 181); 
         border-radius:10px;
         
         
@@ -134,7 +134,7 @@ body {
 .border {  border: 2px solid rgb(72, 72, 72);
   background-color: #f1f1f1;
   border-radius: 25px;
-  box-shadow: 3px 3px rgb(181, 181, 181);}
+  filter:drop-shadow(0px 5px 10px rgb(117, 117, 117));}
 
 
 /* FAQ PAGE*/
