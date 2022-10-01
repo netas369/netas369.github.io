@@ -75,6 +75,55 @@
   top:25%;
   left:70%;
 }
+/* FAQ PAGE*/ /* FAQ PAGE*/ /* FAQ PAGE*/ /* FAQ PAGE*/ /* FAQ PAGE*/ /* FAQ PAGE*/ 
+.columnFaq {
+  float: left;
+  margin-left:8%;
+  margin-right:8%;
+  width:auto;
+  margin-top:auto;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:21.5px;
+  }
+.detailsFaq {
+  padding:15px;
+  color:darkgreen;
+}
+.summaryFaq {
+  padding:10px;
+  color:darkslategrey;
+}
+/* DASHBOARD PAGE */ /* DASHBOARD PAGE */ /* DASHBOARD PAGE */ /* DASHBOARD PAGE */ /* DASHBOARD PAGE */ 
+.dashboard {margin-top:2%;width:95%;margin-left:3%;margin-right:3%;}
+table, th, td {border: 1px solid black;text-align:center;}
+.barline {
+        background-color: rgb(192, 192, 192);
+        width: 60%;
+        border-radius: 15px;
+        position:absolute;
+        margin-left:20%;
+    }
+    .progressbar {
+        background-color:green;
+        color: rgb(0, 0, 0);
+        padding: 1%;
+        text-align: right;
+        font-size: 20px;
+        border-radius: 15px;
+        font-family:cursive, arial;
+        font-style:italic;
+    }
+    .amount {
+        width: 0%;   /* progress of progress bar, change amount here */
+    }
+.trStyle {
+  background-color:rgb(57, 57, 57);
+}
+.mainTopicColor {
+  background-color:grey;
+}
+/* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/
+
 /* ALL PAGES */ /* ALL PAGES */ /* ALL PAGES */ /* ALL PAGES */ /* ALL PAGES */ /* ALL PAGES */
 body {
   font-family: Arial;
@@ -194,5 +243,5 @@ body {
   filter:drop-shadow(0px 5px 10px rgb(117, 117, 117));
   padding: 30px;
 }
-/* FAQ PAGE*/ /* FAQ PAGE*/ /* FAQ PAGE*/ /* FAQ PAGE*/ /* FAQ PAGE*/ /* FAQ PAGE*/ 
+
 /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/

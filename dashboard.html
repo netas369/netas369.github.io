@@ -1,66 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <title>Dashboard</title>
-    <style>
-        .dashboard {margin-top:2%;width:95%;margin-left:3%;margin-right:3%;}
-        table, th, td {border: 1px solid black;text-align:center;}
-        .barline {
-                background-color: rgb(192, 192, 192);
-                width: 60%;
-                border-radius: 15px;
-                position:absolute;
-                margin-left:20%;
-            }
-          
-            .progressbar {
-                background-color:green;
-                color: rgb(0, 0, 0);
-                padding: 1%;
-                text-align: right;
-                font-size: 20px;
-                border-radius: 15px;
-                font-family:cursive, arial;
-                font-style:italic;
-            }
-          
-            .amount {
-                width: 0%;   /* progress of progress bar, change amount here */
-            }
-          
-    </style>
 </head>
-
     <header>
         <h1 class = "headerText"> MY DASHBOARD</h1>
       </header>
       <hr>
-
-<main>
 <body>
     <nav class="menu">
         <ul class="navigation1">
-        <li class="navigation2"><a href="index.html "class="navigation2">Home</a></li>
-        <li class="navigation2"><a href="profile.html" class="navigation2">Profile</a></li>
-        <li class="navigation2"><a class="active" href="dashboard.html"class="navigation2">Dashboard</a></li>
-        <li class="navigation2"><a href="faq.html"class="navigation2">FAQ</a></li>
-        <li class="navigation2"><a href="blog.html"class="navigation2">Blog</a></li>
+            <li class="navigation2"><a href="index.html "class="navigation2">Home</a></li>
+            <li class="navigation2"><a href="profile.html" class="navigation2">Profile</a></li>
+            <li class="navigation2"><a class="active" href="dashboard.html"class="navigation2">Dashboard</a></li>
+            <li class="navigation2"><a href="faq.html"class="navigation2">FAQ</a></li>
+            <li class="navigation2"><a href="blog.html"class="navigation2">Blog</a></li>
         </ul>
     </nav>
-
 <table class="dashboard">
     <thead>
-    <tr>
-         <th style="width:150px;background-color:grey">Quartile</th>
-         <th style="background-color:grey;">Course</th>
-         <th style="background-color:grey;">EC</th>
-         <th style="background-color:grey;">Exam</th>
-         <th style="background-color:grey;">Grade</th>
+    <tr class = "mainTopicColor">
+         <th style = "width:150px;">Quartile</th>
+         <th>Course</th>
+         <th>EC</th>
+         <th>Exam</th>
+         <th>Grade</th>
     </tr>
     </thead>
 <tbody>
@@ -83,7 +51,7 @@
         <td>Case Study</td>
         <td><strong>N</strong></td>                       <!-- ADD GRADE HERE-->
     </tr>
-    <tr style="background-color:rgb(57, 57, 57);">
+    <tr class = "trStyle">
         <td></td>
         <td></td>
         <td></td>
@@ -102,7 +70,7 @@
     <td>Project (50%)</td>
     <td><strong>N</strong></td>                       <!-- ADD GRADE HERE-->
 </tr>
-<tr style="background-color:rgb(57, 57, 57);">
+<tr class = "trStyle">
     <td></td>
     <td></td>
     <td></td>
@@ -131,7 +99,7 @@
     <td>Report (33%)</td>
     <td><strong>N</strong></td>                       <!-- ADD GRADE HERE-->
 </tr>
-<tr style="background-color:rgb(57, 57, 57);">
+<tr class = "trStyle">
     <td></td>
     <td></td>
     <td></td>
@@ -154,7 +122,7 @@
     <td>Assessment (25%)</td>                       
     <td><strong>N</strong></td>                       <!-- ADD GRADE HERE-->
 </tr>
-<tr style="background-color:rgb(57, 57, 57);">
+<tr class = "trStyle">
     <td></td>
     <td></td>
     <td></td>
@@ -183,18 +151,12 @@
     <td><strong>N</strong></td>                       <!-- ADD GRADE HERE-->
 </tr>
 <!-- End of extra quarters. -->
-
 </tbody>
 </table>
-
 <!-- PROGRESS BAR BELOW-->
 <h1 style="text-align:center;color:green;">NBSA Boundary Progress</h1>
 <p style="text-align:center;color:rgb(82, 82, 82)">CURRENT PROGRESS</p>
 <div class="barline">
     <div class="progressbar amount"><strong>0%</strong></div>  <!-- change progress amount-->
-
 </body>
-
-</body>
-</main>
 </html>
