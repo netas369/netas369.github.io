@@ -19,23 +19,23 @@
   filter:drop-shadow(0px 5px 10px rgb(117, 117, 117));
 }
 .sidenav li a {
-        padding:15px;
-        text-decoration: none;
-        font-size: 20px;
-        color: #000000;
-        display:block;
-        background-color: rgb(181, 181, 181); 
-        border-radius:10px;
-      }
+  padding:15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display:block;
+  background-color: rgb(181, 181, 181); 
+  border-radius:10px;
+}
 .sidenav a:hover {
-        color:rgb(0, 0, 0);
-        background-color:#04AA6D;
-      }
+  color:rgb(0, 0, 0);
+  background-color:#04AA6D;
+}
 /* End of Sidenav menu of index page*/
 .hzFoto {
   position:relative;
   margin-left: 30%;
-  }
+}
 .columnMiddleIndex {
   float: left;
   margin-left:28%;
@@ -44,24 +44,36 @@
   margin-top:30px;
   font-family:Arial, Helvetica, sans-serif;
   font-size:20px;
-  }
-.motivationParagraph {
+}
+  .motivationParagraph {
   margin-left: 30%;
-  font-size:20.5px;
+  font-size:20px;
   width: 68%;
   color: rgb(20, 20, 20);
-  }
+}
 .PointsAboutHZ {
-  float: left;
+  float: right;
+  margin-right: 10px;
   font-family:Arial, Helvetica, sans-serif;
   text-align:center;
-  font-size:18px;
+  font-size:20px;
   color: rgb(20, 20, 20);
-  width:530px;
+  width:550px;
   list-style:none;
-  margin-top:30px;
-  margin-right:100%;
-  }
+}
+.borderIndexMain {
+  border: 2px solid rgb(72, 72, 72);
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  filter:drop-shadow(0px 5px 10px rgb(117, 117, 117));
+  padding: 30px;
+  height:455px;
+} 
+.hzFoto {
+  position:absolute;
+  right:60%;
+  top:46%;
+}
 /* PROFILE PAGE /* /* PROFILE PAGE /* /* PROFILE PAGE /* /* PROFILE PAGE /* /* PROFILE PAGE */
 .profileColumn {
   color:green;
@@ -86,7 +98,7 @@
   margin-top:auto;
   font-family:Arial, Helvetica, sans-serif;
   font-size:21.5px;
-  }
+}
 .detailsFaq {
   padding:15px;
   color:darkgreen;
@@ -99,25 +111,25 @@
 .dashboard {margin-top:2%;width:95%;margin-left:3%;margin-right:3%;}
 table, th, td {border: 1px solid black;text-align:center;}
 .barline {
-        background-color: rgb(192, 192, 192);
-        width: 60%;
-        border-radius: 15px;
-        position:absolute;
-        margin-left:20%;
-    }
-    .progressbar {
-        background-color:green;
-        color: rgb(0, 0, 0);
-        padding: 1%;
-        text-align: right;
-        font-size: 20px;
-        border-radius: 15px;
-        font-family:cursive, arial;
-        font-style:italic;
-    }
-    .amount {
-        width: 0%;   /* progress of progress bar, change amount here */
-    }
+  background-color: rgb(192, 192, 192);
+  width: 60%;
+  border-radius: 15px;
+  position:absolute;
+  margin-left:20%;
+}
+  .progressbar {
+  background-color:green;
+  color: rgb(0, 0, 0);
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+  font-family:cursive, arial;
+  font-style:italic;
+}
+  .amount {
+  width: 0%;   /* progress of progress bar, change amount here */
+}
 .trStyle {
   background-color:rgb(57, 57, 57);
 }
@@ -127,8 +139,8 @@ table, th, td {border: 1px solid black;text-align:center;}
 /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/ /* BLOG PAGE*/
 .mainColumnBlogMain {
   width: 80%;
-  margin-left:11%;}
-
+  margin-left:11%;
+}
 .blogpost {
   background-color: white;
   padding: 20px;
@@ -138,22 +150,21 @@ table, th, td {border: 1px solid black;text-align:center;}
   filter:drop-shadow(0px 5px 10px rgb(117, 117, 117));
   font-size:16px;
 }
-
 .row:after {
   display: table;
-  clear: both;}
-
+  clear: both;
+}
 .footer {
   padding: 10px;
   text-align: center;
   background: #f1f1f1;
-  margin-top: 20px;}
-
+  margin-top: 20px;
+}
 /* ALL PAGES */ /* ALL PAGES */ /* ALL PAGES */ /* ALL PAGES */ /* ALL PAGES */ /* ALL PAGES */
 body {
   font-family: Arial;
   background: #f1f1f1;
-  }
+}
 .column {
   float: left;
   width: 33.33%;
@@ -161,7 +172,7 @@ body {
   margin-left:30px;
   font-family:Arial, Helvetica, sans-serif;
   font-size:20px;
-  }
+}
 .columnr {
   float: left;
   margin-left:28%;
@@ -170,12 +181,12 @@ body {
   margin-top:30px;
   font-family:Arial, Helvetica, sans-serif;
   font-size:20px;
-  }
+}
 .row:after {
   content: "";
   display: table;
   clear: both;
-  }
+}
 .headerText {
   margin-top:5%;
   text-align: center;
@@ -187,89 +198,105 @@ body {
 /* Navigation bar*/
 .menu li a:hover {
   background-color:#04AA6D
-  }
+}
 .navigation1 {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: rgb(85, 85, 85);
-     font-family: Arial;
-     left:-5px;
-     filter:drop-shadow(0px 5px 10px rgb(142, 142, 142));
-     z-index: 1;
-    }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(85, 85, 85);
+  font-family: Arial;
+  left:-5px;
+  filter:drop-shadow(0px 5px 10px rgb(142, 142, 142));
+  z-index: 1;
+}
 .navigation2 {
   float:left;
-  }
+}
 .menu li a{
-        display: block;
-        padding: 8px 16px;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        text-decoration: none;
-        }
+  display: block;
+  padding: 8px 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+}
 .menu .active {
-    background-color:#04AA6D;
+  background-color:#04AA6D;
 }
 /* .leftindex {width: 30%; display: table-cell;} */
-
-.navigation2 {border-right:#bbb;
+.navigation2 {
+  border-right:#bbb;
 }
-.navigation1{position: fixed;
-    top: 0;
-    width: 100%;
+.navigation1{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 /*end of navigation bar*/
-
 .font1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:left;
-    color:blue;
-    font-size:22px;
-    left:700px;
-    position:relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:left;
+  color:blue;
+  font-size:22px;
+  left:700px;
+  position:relative;
 }
 .font3 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:left;
-    color:rgb(0, 0, 0);
-    font-size:22px;
-    left:700px;
-    position:relative;}
-.profile1 {position:relative;left:200px; top:80px;}
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:left;
+  color:rgb(0, 0, 0);
+  font-size:22px;
+  left:700px;
+  position:relative;
+}
+.profile1 {
+  position:relative;
+  left:200px;
+  top:80px;
+}
 .left {
-    width:97%;
-    display: table-cell;
-    text-align: left;
-    position:relative; top:80px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #04AA6D;
-  }
-.left-center
-{position:center;}
-.title1 {position: relative; left:150px;}
-.image2 {position: relative; top:-200px; right:50px;}
-
+  width:97%;
+  display: table-cell;
+  text-align: left;
+  position:relative; top:80px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #04AA6D;
+}
+.left-center{
+  position:center;
+}
+.title1 {
+  position: relative;
+  left:150px;
+}
+.image2 {
+  position: relative;
+  top:-200px;
+  right:50px;
+}
 .abouthz {
-    position:relative;
-    left:200px;
-    top:10px;
+  position:relative;
+  left:200px;
+  top:10px;
+}
+/* Blog Posts *//* Blog Posts *//* Blog Posts *//* Blog Posts *//* Blog Posts *//* Blog Posts */
+.maincolumn1 {
+  float: left;
+  width: 80%;
+  margin-left: 20%;
+}
+.blogpost1 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border: 2px solid rgb(72, 72, 72);
+  border-radius: 25px;
+  box-shadow: 3px 3px rgb(181, 181, 181);
+  font-size:20px;
+  text-align:center;
+  width:70%;
 }
 /* Extra designs */ /* Extra designs */ /* Extra designs */ /* Extra designs */ /* Extra designs */
-.borderIndexMain {
-  border: 2px solid rgb(72, 72, 72);
-  background-color: #f1f1f1;
-  border-radius: 25px;
-  filter:drop-shadow(0px 5px 10px rgb(117, 117, 117));
-  padding: 30px;
-  height:455px;
-}
-.hzFoto {
-  position:relative;
-  margin-left:62%;
-  bottom:250px;
-}
 .border {
   border: 2px solid rgb(72, 72, 72);
   background-color: #f1f1f1;
@@ -277,7 +304,6 @@ body {
   filter:drop-shadow(0px 5px 10px rgb(117, 117, 117));
   padding: 30px;
 }
-
 .footerIndex {
   width: 100%;  
   background-color: rgb(210, 210, 210);  
@@ -285,4 +311,4 @@ body {
   text-align: center;
   height:100px;
   font-family:Arial, Helvetica, sans-serif;
-  }  
+}  
